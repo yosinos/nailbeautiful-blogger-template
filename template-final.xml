@@ -23,8 +23,7 @@
     <meta expr:content='data:blog.title' property='og:site_name'/>
     <meta expr:content='data:blog.locale' property='og:locale'/>
     <meta content='website' property='og:type'/>
-    <meta content='https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap' rel='preconnect'/>
-    <meta content='https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap' rel='stylesheet'/>
+    <link href='https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap' rel='stylesheet'/>
     <b:skin><![CDATA[
       :root {
         --bg: #f9f4f2;
@@ -523,7 +522,7 @@
       document.addEventListener('DOMContentLoaded', function () {
         var toggle = document.querySelector('.mobile-toggle');
         var nav = document.querySelector('.nav-wrap');
-        if (toggle && nav) {
+        if (toggle &amp;&amp; nav) {
           toggle.addEventListener('click', function () {
             nav.classList.toggle('open');
           });
@@ -607,15 +606,15 @@
     <div id='outer-wrapper'>
       <div class='featured-strip'>
         <article class='featured-item'>
-          <img alt='Featured nail design' src='https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80'/>
+          <img alt='Featured nail design' src='https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&amp;fit=crop&amp;w=900&amp;q=80'/>
           <div class='meta'><a href='/search/label/Nail%20Designs'>Nail Art Ideas</a></div>
         </article>
         <article class='featured-item'>
-          <img alt='Gel manicure' src='https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=900&q=80'/>
+          <img alt='Gel manicure' src='https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&amp;fit=crop&amp;w=900&amp;q=80'/>
           <div class='meta'><a href='/search/label/Gel%20Manicure'>Gel Manicure</a></div>
         </article>
         <article class='featured-item'>
-          <img alt='Luxury manicure' src='https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=900&q=80'/>
+          <img alt='Luxury manicure' src='https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&amp;fit=crop&amp;w=900&amp;q=80'/>
           <div class='meta'><a href='/search/label/Acrylic%20Nails'>Luxury Nails</a></div>
         </article>
       </div>
